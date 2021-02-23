@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679361175085",
+    "firebase_url": "https://gmmah-78f51.firebaseio.com",
+    "project_id": "gmmah-78f51",
+    "storage_bucket": "gmmah-78f51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679361175085:android:a220f81c7c19c2d0",
+        "android_client_info": {
+          "package_name": "com.GMMAS.gwon_ocheol.schoolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679361175085-0u0706s6euntu851lgs4tniqjj6qdemr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.GMMAS.gwon_ocheol.schoolapp",
+            "certificate_hash": "47f221e52d4eadbb3ae12b096bc37cea9e860eb2"
+          }
+        },
+        {
+          "client_id": "679361175085-e5tpnvtan9jfcfjmcdjoqq5rb4o88fgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTyRfnlib2Bjclm7eIbyyjn4qdkPB92Q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679361175085-e5tpnvtan9jfcfjmcdjoqq5rb4o88fgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

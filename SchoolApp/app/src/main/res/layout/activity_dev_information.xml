@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.gwon_ocheol.schoolapp.com.GMMAS.gwon_ocheol.schoolapp.Dev_information"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="library"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/jsoup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jsoup : The MIT License" />
+
+        <TextView
+            android:id="@+id/zagum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zagum:Android-ExpandIcon : apache License-2.0" />
+
+        <TextView
+            android:id="@+id/commons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="commons-codec : apache License-2.0" />
+
+        <TextView
+            android:id="@+id/firebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Firebase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KBIZ 한마음고딕 by 중소기업중앙회"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개발자 정보"
+            android:textSize="17pt"
+            android:layout_marginTop="10pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myname"
+            android:text="이름 : 권오철"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일 : kwondroid@daum.net"
+            android:id="@+id/email"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bugReporting"
+            android:text="버그 리포팅 : kwondroid@duam.net"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanks to 이상선 ,이근혁"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

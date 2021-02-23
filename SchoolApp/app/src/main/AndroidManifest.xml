@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.GMMAS.gwon_ocheol.schoolapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img_0174_690px"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img_0174_690px"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.GMMAS.gwon_ocheol.schoolapp.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.GMMAS.gwon_ocheol.schoolapp.AnonymousBoard" />
+        <activity
+            android:name="com.GMMAS.gwon_ocheol.schoolapp.MealInformation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.GMMAS.gwon_ocheol.schoolapp.PostSetData" />
+        <activity android:name="com.GMMAS.gwon_ocheol.schoolapp.FacebookOnWebView" />
+        <activity android:name="com.GMMAS.gwon_ocheol.schoolapp.Notice" />
+        <activity android:name="com.GMMAS.gwon_ocheol.schoolapp.Dev_information">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
